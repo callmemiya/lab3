@@ -3,7 +3,7 @@
 Vector3::Vector3(int x,int y,int z): Vector(x,y){
   this->z=z;
 }
-void Vector3::Vector::print(){
+void Vector3::print(){
   Vector::print();
   cout <<";" <<z;
 }
