@@ -1,6 +1,7 @@
 #include <iostream>
 #include <fstream>
 #include <cstdlib>
+#include "Vector.h"
 using namespace std;
 int main(){
     Vector* vector;
