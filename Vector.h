@@ -10,10 +10,4 @@ public:
     Vector(int x,int y);
     virtual void print();
 };
-class Vector3 : public Vector {
-    int z;
-public:
-    Vector3(int x,int y,int z): Vector(x,y);
-    void print();
-};
 #endif /*Vector_h*/
